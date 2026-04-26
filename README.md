@@ -11,21 +11,21 @@ The following rules are applied to every cell in the two dimensional grid:
   1. If the cell is live has fewer than two live neighbours, it dies as if by underpopulation.  
   2. If the cell is live and has two or three live nighbours, it lives on to the next generation.  
   3. If the cell is live and has more than three live neighbours, it dies as if by overpopulation.  
-  4. If the cell is dead and has exactly three live neighbours, it becomes a live cell, as if by reproduction.  
+  4. If the cell is dead and has exactly three live neighbours, it becomes a live cell, as if by reproduction.
 
 # Specifications
-This project was built with the **Simple DirectMedia Layer** framework (SDL2).  
+This project was built with the **Simple DirectMedia Layer** framework (SDL2).
 
 # Dependencies
 **SDL2**     - Simple DirectMedia Layer framework for graphics rendering.  
-**SDL2_ttf** - For TTF font loading and rendering.  
+**SDL2_ttf** - For TTF font loading and rendering.
 
 # Controls
 **Space Bar:** Start Simulation / Stop Simulation  
 **↑:** Increase update delta time (+5 snap)  
 **↓:** Decrease update delta time (-5 snap)   
 **Middle Mouse Button:** Clears the grid  
-**Click:** Spawn a cell at the mouse cursor  
+**Click:** Spawn a cell at the mouse cursor
 
 # Installation
 Download the .ZIP file, extract it, and run the 'main' executable.  
