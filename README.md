@@ -1,5 +1,6 @@
 # Description
 An implementation of the classic John Conway's Game of Life. The project is built in C with the SDL2 framework.  
+
 John Conway's Game of Life is a cellular automaton created by the British mathematician John Horton Conway in 1970.  
 The Game of Life is known as a zero-player game as the evolution of the game is determined only by the initial configuration of the player, requiring no further input.  
 The Game of Life evolves in discrete time steps known as generations. The 2 dimensional grid is comprised of cells that can be found in one of two possible states: dead or live.  
