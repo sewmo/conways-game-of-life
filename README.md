@@ -22,8 +22,8 @@ This project was built with the **Simple DirectMedia Layer** framework (SDL2).
 
 # Controls
 **Space Bar:** Start Simulation / Stop Simulation  
-**↑:** Increase update delta time (+5 snap)
-**↓:** Decrease update delta time (-5 snap)  
+**↑:** Increase update delta time (+5 snap)  
+**↓:** Decrease update delta time (-5 snap)   
 **Middle Mouse Button:** Clears the grid  
 **Click:** Spawn a cell at the mouse cursor  
 
